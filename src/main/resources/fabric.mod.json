@@ -3,10 +3,10 @@
   "id": "froggy",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Frog Mod",
+  "description": "fornte",
   "authors": [
-    "Me!"
+    "Some Frog"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,7 +14,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/froggy/icon.png",
+  "icon": "assets/frogmod/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-    "froggy.mixins.json"
+    "frogmod.mixins.json"
   ],
 
   "depends": {
