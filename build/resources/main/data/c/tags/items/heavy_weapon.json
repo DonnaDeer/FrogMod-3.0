@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "frog:heavy_diamond_sword",
+    "frog:heavy_netherite_sword",
+    "frog:diamond_hammer",
+    "frog:netherite_hammer"
+  ]
+}

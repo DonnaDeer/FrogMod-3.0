@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.froggy.frogmod.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "FrogMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
