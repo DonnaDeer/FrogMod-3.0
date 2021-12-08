@@ -2,5 +2,7 @@
   "item.frogmod.ruby": "Ruby",
 
   "block.frogmod.ruby_ore": "Ruby Ore",
-  "block.frogmod.ruby_block": "Ruby Block"
+  "block.frogmod.ruby_block": "Ruby Block",
+
+  "mod.frogmod.description": "Holy moly it's the frog mod!"
 }

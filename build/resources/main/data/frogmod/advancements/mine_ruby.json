@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "frogmod:ruby"
+    },
+    "title": {
+      "text": "Red Diamonds!"
+    },
+    "description": {
+      "text": "Locate a rare vein of ruby ore, and obtain a Ruby!"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/mine_diamond",
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "frogmod:ruby"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "frogmod:ruby"
+    ]
+  ]
+}

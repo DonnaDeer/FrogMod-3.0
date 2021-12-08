@@ -1,6 +1,13 @@
 {
   "item.frogmod.ruby": "Ruby",
 
+  "item.frogmod.heavy_diamond_sword": "Heavy Diamond Sword",
+  "item.frogmod.heavy_netherite_sword": "Heavy Netherite Sword",
+  "item.frogmod.diamond_hammer": "Diamond Hammer",
+  "item.frogmod.netherite_hammer": "Netherite Hammer",
+
   "block.frogmod.ruby_ore": "Ruby Ore",
-  "block.frogmod.ruby_block": "Ruby Block"
+  "block.frogmod.ruby_block": "Ruby Block",
+
+  "mod.frogmod.description": "Holy moly it's the frog mod!"
 }

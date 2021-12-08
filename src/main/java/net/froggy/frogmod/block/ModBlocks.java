@@ -15,11 +15,11 @@ import net.froggy.frogmod.FrogMod;
 public class ModBlocks {
 
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f)
-                    .breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
+            new Block(FabricBlockSettings.of(Material.STONE).strength(5.0f)
+                    .breakByTool(FabricToolTags.PICKAXES, 3).requiresTool()));
 
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f)
+            new Block(FabricBlockSettings.of(Material.STONE).strength(5.0f)
                     .breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
 
 

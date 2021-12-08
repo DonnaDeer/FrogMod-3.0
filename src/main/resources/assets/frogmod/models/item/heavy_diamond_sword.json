@@ -1,0 +1,29 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "frogmod:items/heavy_diamond_sword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 45],
+			"translation": [0, 5, 1],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -45],
+			"translation": [0, 5, 1],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -22.5, 22.5],
+			"translation": [1.75, 1.75, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -22.5, -64.5],
+			"translation": [1.75, 1.75, 0]
+		},
+		"ground": {
+			"scale": [0.9, 0.9, 0.9]
+		}
+	}
+}

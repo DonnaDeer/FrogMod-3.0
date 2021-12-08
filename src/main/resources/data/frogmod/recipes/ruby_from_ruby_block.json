@@ -1,10 +1,13 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R"
+  ],
+  "key": {
+    "R": {
       "item": "frogmod:ruby_block"
     }
-  ],
+  },
   "result": {
     "item": "frogmod:ruby",
     "count": 9
