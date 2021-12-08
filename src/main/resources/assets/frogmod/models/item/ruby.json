@@ -1,6 +1,17 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "frogmod:items/ruby"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "frogmod:items/ruby"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2, 1],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 2, 1],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
 }
