@@ -14,11 +14,17 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static final Item HEAVY_DIAMOND_SWORD = registerItem("heavy_diamond_sword",
-            new SwordItem(ModToolMaterial.DIAMOND, 5, 1f,
+            new SwordItem(ModToolMaterial.DIAMOND, 6, -2.8f,
                     new FabricItemSettings().group(ItemGroup.COMBAT)));
     public static final Item DIAMOND_HAMMER = registerItem("diamond_hammer",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
-
+            new HammerItem(ModToolMaterial.DIAMOND, 8, -3.4f,
+                    new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item HEAVY_NETHERITE_SWORD = registerItem("heavy_netherite_sword",
+            new SwordItem(ModToolMaterial.NETHERITE, 7, -2.8f,
+                    new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item NETHERITE_HAMMER = registerItem("netherite_hammer",
+            new HammerItem(ModToolMaterial.NETHERITE, 9, -3.2f,
+                    new FabricItemSettings().group(ItemGroup.COMBAT)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(FrogMod.MOD_ID, name), item);

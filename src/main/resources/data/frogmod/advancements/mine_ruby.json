@@ -7,7 +7,7 @@
       "text": "Red Diamonds!"
     },
     "description": {
-      "text": "Locate a rare vein of ruby ore, and obtain a Ruby!"
+      "text": "Locate a Ruby in the depths of the earth!"
     },
     "frame": "task",
     "show_toast": true,
@@ -31,7 +31,7 @@
   },
   "requirements": [
     [
-      "frogmod:ruby"
+      "diamond"
     ]
   ]
 }

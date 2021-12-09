@@ -10,9 +10,13 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    DIAMOND(3, 1561, 8.0F, 2.0F, 10, () -> {
+    DIAMOND(3, 1561, 8.0F, 1.0F, 10, () -> {
         return Ingredient.ofItems(Items.DIAMOND);
+    }),
+    NETHERITE(4, 2031, 9.0F, 1.0F, 15, () -> {
+        return Ingredient.ofItems(Items.NETHERITE_INGOT);
     });
+
 
     private final int miningLevel;
     private final int itemDurability;
