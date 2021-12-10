@@ -23,6 +23,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(5.0f)
                     .breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
 
+    public static final Block PACKED_BAMBOO = registerBlock("packed_bamboo",
+            new Block(FabricBlockSettings.of(Material.BAMBOO).strength(0.0f)
+                    .breakByTool(FabricToolTags.SWORDS, 2)));
+
     public static final Block BAMBOO_FENCE = registerBlock("bamboo_fence",
             new FenceBlock(FabricBlockSettings.of(Material.BAMBOO).strength(0.0f)
                     .breakByTool(FabricToolTags.SWORDS, 0)));

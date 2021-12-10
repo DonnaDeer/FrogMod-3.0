@@ -1,6 +1,7 @@
 package net.froggy.frogmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.SwordItem;
@@ -12,6 +13,10 @@ public class ModItems {
 
     public static final Item RUBY = registerItem("ruby",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+    public static final Item STRAWBERRY = registerItem("strawberry", new Item(new FabricItemSettings()
+            .food(new FoodComponent.Builder().hunger(2).saturationModifier(0.2f).build())
+            .group(ItemGroup.FOOD)));
 
     public static final Item HEAVY_DIAMOND_SWORD = registerItem("heavy_diamond_sword",
             new SwordItem(ModToolMaterial.DIAMOND, 6, -2.8f,
