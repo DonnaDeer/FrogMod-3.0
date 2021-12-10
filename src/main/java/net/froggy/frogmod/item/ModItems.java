@@ -17,7 +17,7 @@ public class ModItems {
             new SwordItem(ModToolMaterial.DIAMOND, 6, -2.8f,
                     new FabricItemSettings().group(ItemGroup.COMBAT)));
     public static final Item DIAMOND_HAMMER = registerItem("diamond_hammer",
-            new HammerItem(ModToolMaterial.DIAMOND, 8, -3.4f,
+            new HammerItem(ModToolMaterial.DIAMOND, 8, -3.2f,
                     new FabricItemSettings().group(ItemGroup.COMBAT)));
     public static final Item HEAVY_NETHERITE_SWORD = registerItem("heavy_netherite_sword",
             new SwordItem(ModToolMaterial.NETHERITE, 7, -2.8f,
