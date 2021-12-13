@@ -13,6 +13,8 @@ public class ModItems {
 
     public static final Item RUBY = registerItem("ruby",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item HARVESTER = registerItem("harvester",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static final Item STRAWBERRY = registerItem("strawberry", new Item(new FabricItemSettings()
             .food(new FoodComponent.Builder().hunger(2).saturationModifier(0.2f).build())

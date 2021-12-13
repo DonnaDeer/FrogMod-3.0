@@ -1,4 +1,5 @@
 {
+	"parent": "block/cube_all",
 	"textures": {
 		"0": "frogmod:blocks/packed_bamboo_side",
 		"1": "frogmod:blocks/packed_bamboo_top",
@@ -17,18 +18,5 @@
 				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
 			}
 		}
-	],
-	"display": {
-		"ground": {
-			"translation": [0, -2, 0],
-			"scale": [0.25, 0.25, 0.25]
-		},
-		"gui": {
-			"rotation": [22.5, 45, 0],
-			"scale": [0.6, 0.6, 0.6]
-		},
-		"fixed": {
-			"scale": [0.5, 0.5, 0.5]
-		}
-	}
+	]
 }
