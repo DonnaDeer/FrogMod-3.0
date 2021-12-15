@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.FenceBlock;
 import net.minecraft.block.Material;
+import net.minecraft.block.PillarBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -24,7 +25,7 @@ public class ModBlocks {
                     .breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
 
     public static final Block PACKED_BAMBOO = registerBlock("packed_bamboo",
-            new Block(FabricBlockSettings.of(Material.BAMBOO).strength(0.0f)
+            new PillarBlock(FabricBlockSettings.of(Material.BAMBOO).strength(0.0f)
                     .breakByTool(FabricToolTags.SWORDS, 2)));
 
     public static final Block BAMBOO_FENCE = registerBlock("bamboo_fence",

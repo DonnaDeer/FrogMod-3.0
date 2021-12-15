@@ -1,5 +1,16 @@
 {
   "variants": {
-    "": { "model": "frogmod:block/packed_bamboo" }
+    "axis=x": {
+      "model": "frogmod:block/packed_bamboo_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "frogmod:block/packed_bamboo"
+    },
+    "axis=z": {
+      "model": "frogmod:block/packed_bamboo_horizontal",
+      "x": 90
+    }
   }
 }

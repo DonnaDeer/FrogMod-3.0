@@ -6,6 +6,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.SwordItem;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 import net.froggy.frogmod.FrogMod;
 
@@ -14,9 +15,14 @@ public class ModItems {
     public static final Item RUBY = registerItem("ruby",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item HARVESTER = registerItem("harvester",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item SOUL = registerItem("soul",
+            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS).fireproof()));
+    public static final Item SOUL_GEM = registerItem("soul_gem",
+            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS).rarity(Rarity.RARE).fireproof()));
 
-    public static final Item STRAWBERRY = registerItem("strawberry", new Item(new FabricItemSettings()
+    public static final Item STRAWBERRY = registerItem("strawberry",
+            new Item(new FabricItemSettings()
             .food(new FoodComponent.Builder().hunger(2).saturationModifier(0.2f).build())
             .group(ItemGroup.FOOD)));
 
@@ -28,10 +34,10 @@ public class ModItems {
                     new FabricItemSettings().group(ItemGroup.COMBAT)));
     public static final Item HEAVY_NETHERITE_SWORD = registerItem("heavy_netherite_sword",
             new SwordItem(ModToolMaterial.NETHERITE, 7, -2.8f,
-                    new FabricItemSettings().group(ItemGroup.COMBAT)));
+                    new FabricItemSettings().group(ItemGroup.COMBAT).fireproof()));
     public static final Item NETHERITE_HAMMER = registerItem("netherite_hammer",
             new HammerItem(ModToolMaterial.NETHERITE, 9, -3.2f,
-                    new FabricItemSettings().group(ItemGroup.COMBAT)));
+                    new FabricItemSettings().group(ItemGroup.COMBAT).fireproof()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(FrogMod.MOD_ID, name), item);

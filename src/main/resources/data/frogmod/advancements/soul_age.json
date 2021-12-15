@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "frogmod:soul_gem"
+    },
+    "title": {
+      "text": "Soul Age"
+    },
+    "description": {
+      "text": "Create a Soul Gem"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:nether/summon_wither",
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "frogmod:soul_gem"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 640
+  }
+}
