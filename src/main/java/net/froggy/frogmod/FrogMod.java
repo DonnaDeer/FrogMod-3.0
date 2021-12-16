@@ -18,5 +18,6 @@ public class FrogMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		System.out.println("Real!");
+
 	}
 }

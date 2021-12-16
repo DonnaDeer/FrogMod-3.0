@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "frogmod:block/packed_sugarcane_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "frogmod:block/packed_sugarcane"
+    },
+    "axis=z": {
+      "model": "frogmod:block/packed_sugarcane_horizontal",
+      "x": 90
+    }
+  }
+}
