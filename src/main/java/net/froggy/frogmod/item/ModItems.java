@@ -1,7 +1,10 @@
 package net.froggy.frogmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.froggy.frogmod.sound.ModSoundEvents;
 import net.minecraft.item.*;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
@@ -17,6 +20,8 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.MATERIALS).fireproof()));
     public static final Item SOUL_GEM = registerItem("soul_gem",
             new Item(new FabricItemSettings().group(ItemGroup.MATERIALS).rarity(Rarity.RARE).fireproof()));
+    public static final Item MUSIC_DISC_BHOE = registerItem("music_disc_bhoe",
+            new ModMusicDiscItem(14, ModSoundEvents.MUSIC_DISC_BHOE, (new FabricItemSettings()).maxCount(1).group(ItemGroup.MISC).rarity(Rarity.RARE)));
 
     public static final Item STRAWBERRY = registerItem("strawberry",
             new Item(new FabricItemSettings()

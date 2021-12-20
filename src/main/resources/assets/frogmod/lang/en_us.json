@@ -3,6 +3,8 @@
   "item.frogmod.harvester": "Harvester",
   "item.frogmod.soul": "Soul",
   "item.frogmod.soul_gem": "Soul Gem",
+  "item.frogmod.music_disc_bhoe": "Music Disc",
+  "item.frogmod.music_disc_bhoe.desc": "Peter Hont - Broken Heart of Ender",
 
   "item.frogmod.heavy_diamond_sword": "Heavy Diamond Sword",
   "item.frogmod.heavy_netherite_sword": "Heavy Netherite Sword",
@@ -18,6 +20,8 @@
   "block.frogmod.bamboo_fence": "Bamboo Fence",
   "block.frogmod.packed_bamboo": "Packed Bamboo",
   "block.frogmod.packed_sugarcane": "Packed Sugarcane",
+
+  "block.frogmod.morel": "Morel",
 
   "mod.frogmod.description": "Holy moly it's the frog mod!"
 }
